@@ -105,4 +105,10 @@ footer div > hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+section,article ,footer{
+  margin-left:1%;
+  margin-right:1%;
+}
+main > section{
+  margin-top:20px;
+}
