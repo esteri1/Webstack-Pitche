@@ -93,7 +93,7 @@ window.onscroll = function() {
         headerText.style.opacity = -window.pageYOffset / 300 + 1;
     }
     // home page JS
-    if (pageTitle.text === "Heptic Technologies") {
+    if (pageTitle.text === "Haptic Technologies") {
         //change dots background color
         if (window.pageYOffset < headerSection.offsetHeight * 0.5) {
             dots.forEach(dot => dot.classList.remove("black"));
@@ -138,7 +138,7 @@ window.onscroll = function() {
 };
 
 // home page JS
-if (pageTitle.text === "Heptic Tchnologies") {
+if (pageTitle.text === "Haptic Tchnologies") {
     // svg-down smooth scroll
     svgDown.addEventListener("click", () => {
         window.scroll({
